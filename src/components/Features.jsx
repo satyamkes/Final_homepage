@@ -34,6 +34,7 @@ const Features = () => {
   ];
 
   return (
+    // Features Section
     <div className="h-screen bg-gradient-to-b from-[#0A0F1E] to-[#1A1F3C] text-white overflow-scroll">
       {/* Floating Particles */}
       <div className="fixed inset-0 z-0">
@@ -50,7 +51,7 @@ const Features = () => {
           />
         ))}
       </div>
-
+      // Features Section
       <div className="relative z-10 container mx-auto px-4 py-20">
         {/* Header Section */}
         <div className="text-center mb-20">
